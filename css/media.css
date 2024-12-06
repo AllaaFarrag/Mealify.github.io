@@ -1,0 +1,273 @@
+@media screen and (max-width: 645px) {
+    header .content {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header .content h2 {
+      font-size: 40px;
+    }
+  
+    header .content p {
+      width: 90%;
+      font-size: 14px;
+    }
+  
+    header .header-image {
+      width: 100%;
+      order: -1;
+    }
+  
+    header .header-image img {
+      padding: 20px;
+    }
+  
+    header .btn.red {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  
+    .video-button {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .video-text {
+      font-size: 14px;
+    }
+  
+    .play-icon {
+      width: 35px;
+      height: 35px;
+    }
+  
+    .chefs .content {
+      text-align: center;
+      padding-top: 5%;
+      margin-bottom: 5%;
+    }
+  
+    .images-card {
+      flex-basis: 90%;
+      margin-bottom: 50px;
+    }
+  
+    .chefs-images .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .gallery .content {
+      margin: 0;
+    }
+  
+    .masonry {
+      display: block;
+    }
+  
+    .masonry .container {
+      display: block;
+    }
+  
+    .item img {
+      width: 100%;
+    }
+  
+    .contact-info .container {
+      display: block;
+    }
+  
+    .contact-info .contacts {
+      width: 90%;
+    }
+  
+    .input-container {
+      display: block;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+    }
+  
+    .contact-form button {
+      width: 80%;
+    }
+  
+    footer {
+      padding: 20px 0;
+    }
+  
+    .footer {
+      display: block;
+      text-align: center;
+    }
+  
+    .about {
+      width: 100%;
+    }
+  
+    .subscribe {
+      width: 100%;
+    }
+  
+    .subscribe .input {
+      flex-direction: column;
+    }
+  
+    .subscribe .input input {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .subscribe .input button {
+      width: 100%;
+    }
+  
+    .subscribe .list ul {
+      flex-direction: column;
+    }
+  
+    .subscribe .list ul li {
+      width: 100%;
+    }
+  
+    .touch {
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width: 645px) and (max-midth: 768) {
+    .contact-info .contacts {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (min-width: 645px) and (max-width: 1024px) {
+    button {
+      width: 100%;
+      display: block;
+    }
+    header {
+      width: 100%;
+    }
+    
+    header .content {
+      width: 90%;
+    }
+  
+    header .content h2 {
+      font-size: 48px;
+    }
+  
+    header .content p {
+      width: 80%;
+      font-size: 16px;
+    }
+  
+    header .header-image {
+      width: 100%;
+      order: -1;
+      box-sizing: border-box;
+    }
+  
+    header .header-image img {
+      padding: 15px;
+    }
+  
+    header .btn.red {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 20px;
+      display: block; 
+    }
+  
+    .images-card {
+      flex-basis: 48%;
+      margin-bottom: 40px;
+    }
+  
+    .masonry {
+      display: flex;
+    }
+  
+    .masonry .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .item img {
+      width: 100%;
+    }
+  
+    .contact-info .container {
+      display: flex;
+    }
+  
+    .contact-info .contacts {
+      width: 100%;
+    }
+  
+    .input-container {
+      display: flex;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      width: 90%;
+    }
+  
+    .contact-form button {
+      width: 30%;
+    }
+  
+    footer {
+      padding: 30px 0;
+    }
+  
+    .footer {
+      display: flex;
+      text-align: left;
+    }
+  
+    .about {
+      width: 80%;
+    }
+  
+    .subscribe {
+      width: 80%;
+    }
+  
+    .subscribe .input {
+      flex-direction: row;
+    }
+  
+    .subscribe .list ul {
+      flex-direction: row;
+    }
+  
+    .touch {
+      width: 80%;
+    }
+  }
+   
+  @media screen and (min-width:1024px) and (max-width:1280px){
+    .contact-info .contacts {
+      width: 45%;
+    }
+
+    header .btn.red {
+      width: 30%;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 20px;
+      display: block; 
+    }
+
+    .contact-form button {
+      width: 30%;
+    }
+  }
